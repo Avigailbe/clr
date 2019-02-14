@@ -191,7 +191,7 @@ drop proc  if exists SelectSPData
 
 create proc MyNewClr
 as
-external name MyNewClr.Class2.ProcedureInfo
+external name MyNewClr.Class1.ProcedureInfo
 go
 
 exec MyNewClr 
